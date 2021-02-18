@@ -65,8 +65,7 @@ a {
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover {
-    text-decoration: underline;
-    color: #CA82F8; }
+    color: black; }
   a:focus, a:active {
     outline: none; }
 
@@ -1003,13 +1002,31 @@ header {
       -ms-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
       -o-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
       box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21); }
+      .article .desc .meta1 {
+        position: unset;
+        top: -80px;
+        left: 20px;
+        background: rgb(193 219 247);
+        color: #000;
+        padding: 20px 10px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+        -webkit-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        -moz-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        -ms-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        -o-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21); }
     .article .desc h2 {
       font-size: 24px; }
       .article .desc h2 a {
         text-decoration: none;
         color: #000; }
-  .article:hover .meta {
-    background: #fff; }
+  .article:hover .meta1 {
+    background: #fff;
+    color: #000; }
 
 #colorlib-testimony .owl-theme .owl-dots .owl-dot.active span,
 #colorlib-testimony .owl-theme .owl-dots .owl-dot:hover span {
@@ -1322,6 +1339,14 @@ header {
     .contact-info li a {
       color: #CA82F8; }
 
+ .loadmore{
+  display: none;
+ }
+ .img-responsive1{
+  display: block;
+  max-width: 80%;
+  height: auto;
+ }
 .form-control {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -1352,7 +1377,7 @@ input[type="text"] {
 
 .colorlib-social-icons i {
   font-size: 24px;
-  color: #CA82F8; }
+  color: #5e5e5e; }
 
 #footer {
   padding: 8em 0;
