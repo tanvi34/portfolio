@@ -358,7 +358,7 @@ header {
         text-decoration: none; }
 
 
-#colorlib-progress{
+#inspiration{
   padding-top: 10em;
 
   clear: both;
@@ -382,7 +382,7 @@ header {
     #colorlib-work,
     #colorlib-blog,
     #colorlib-testimony,
-    #colorlib-progress,
+    #inspiration,
     #colorlib-contact,
     #colorlib-about {
       padding: 5em 0; } }
