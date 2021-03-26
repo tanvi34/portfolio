@@ -17,7 +17,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   background: #fafafa;
-  color: gray; }
+  color: 	#404040; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -1112,7 +1112,7 @@ header {
     outline: none !important; }
 
 .btn-primary {
-  background: #CA82F8;
+  background: white;
   color: #fff;
   border: 2px solid #CA82F8; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -1127,7 +1127,11 @@ header {
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
       background: #CA82F8;
       color: #fff; }
-
+      .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+        background: transparent !important;
+        color: black !important;
+        border: 2px solid black !important;
+    }
 .btn-success {
   background: #5cb85c;
   color: #fff;
@@ -1187,6 +1191,13 @@ header {
     .btn-danger.btn-outline:hover, .btn-danger.btn-outline:focus, .btn-danger.btn-outline:active {
       background: #d9534f;
       color: #fff; }
+
+      .img-responsive5 {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-top: 17px;
+    }
 
 .btn-outline {
   background: none;
@@ -1360,7 +1371,32 @@ header {
  .loadmore{
   display: none;
  }
+ .block-27 ul {
+  padding: 0;
+  margin: 0; }
+  .block-27 ul li {
+    display: inline-block;
+    margin-bottom: 4px;
+    font-weight: 400; }
+    .block-27 ul li a, .block-27 ul li span {
+      color: #4d4d4d;
+      width: 40px;
+      height: 40px;
+      line-height: 25px;
+      border-radius: 50%;
+      border: 1px solid #d9d9d9; }
+    .block-27 ul li.active a, .block-27 ul li.active span {
+      background: #fce7f1;
+      color: #ee76ad;
+      border: 1px solid transparent; }
+
+
  .img-responsive1{
+  display: block;
+  max-width: 80%;
+  height: auto;
+ }
+ .img-responsive2{
   display: block;
   max-width: 80%;
   height: auto;

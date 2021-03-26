@@ -165,7 +165,7 @@
 		$(".loadmore").slice(0, 4).show(); // select the first ten
 		$("#load").click(function(e){ // click event for load more
 			e.preventDefault();
-			$(".loadmore:hidden").slice(0, 2).show(); // select next 10 hidden divs and show them
+			$(".loadmore:hidden").slice(0, 3).show(); // select next 10 hidden divs and show them
 			if($(".loadmore:hidden").length == 0){ // check if any hidden divs still exist
 				
 				document.getElementById("load").style.display = "none";
