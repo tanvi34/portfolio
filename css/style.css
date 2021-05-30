@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Palatino", Arial, sans-serif;
+  font-family: "Times New Roman", Arial, sans-serif;
   line-height: 1.8;
   font-size: 16px;
   font-weight: 400;
@@ -71,7 +71,7 @@ a {
 p, span {
   margin-bottom: 1.5em;
   font-weight: 400;
-  font-family: "Palatino", Arial, sans-serif; }
+  font-family: "Times New Roman", Arial, sans-serif; }
 
 ul, ol {
   display: block;
@@ -391,7 +391,7 @@ header {
   top: .4em;
   left: -50px; }
   .rotate .heading {
-    font-family: "Palatino", Arial, sans-serif;
+    font-family: "Times New Roman", Arial, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1em;
@@ -451,7 +451,7 @@ header {
     top: 7px;
     left: 30px; }
     .about-desc .rotate .heading {
-      font-family: "Palatino", Arial, sans-serif;
+      font-family: "Times New Roman", Arial, sans-serif;
       font-size: 14px;
       text-transform: uppercase;
       letter-spacing: 1em;
@@ -779,7 +779,7 @@ header {
 .services {
   margin-bottom: 4em; }
   .services h3 {
-    font-family: "Palatino", Arial, sans-serif;
+    font-family: "Times New Roman", Arial, sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700; }
@@ -949,7 +949,7 @@ header {
       .article .blog-img .link .read {
         display: table-cell;
         vertical-align: middle;
-        font-family: "Palatino", Arial, sans-serif;
+        font-family: "Times New Roman", Arial, sans-serif;
         color: #fff;
         font-size: 12px;
         text-transform: uppercase;
